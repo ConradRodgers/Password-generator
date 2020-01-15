@@ -1,0 +1,23 @@
+.content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: moccasin;
+  padding: 20px;
+  width: 100%;
+}
+
+#display {
+  width: 100%;
+}
+
+#slider {
+  width: 100%;
+}
+#length {
+  display: inline-block;
+  width: 100px;
+}
+
+.previous_passwords {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQm1kS7oQtPASolWtYhk5nGV5HdkS8qTyRLWhCcosDYMRTT7mmw);
+}
