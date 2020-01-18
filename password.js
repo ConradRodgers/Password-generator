@@ -21,10 +21,10 @@ function generate() {
 
   //list out/ PRINT TO SCREEN old passwords
   document.getElementById("lastNums").innerHTML +=
-    password + "<br />" + "<br />";
+    password + "<hr />" + "<hr />";
 }
 
-// default slider setting
+// default slider setting "P
 document.getElementById("length").innerHTML = "Length: 8";
 
 //slider readout display
