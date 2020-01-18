@@ -3,7 +3,7 @@ function generate() {
   //sets password length and complexity
   let complexity = document.getElementById("slider").value;
 
-  //password values
+  //password values??????????<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
   let values =
     "qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890!@!#$%^&*()";
   let password = "";
@@ -19,8 +19,9 @@ function generate() {
 
   document.getElementById("display").value = password;
 
-  //list out old passwords
-  document.getElementById("lastNums").innerHTML += password + "<br />";
+  //list out/ PRINT TO SCREEN old passwords
+  document.getElementById("lastNums").innerHTML +=
+    password + "<br />" + "<br />";
 }
 
 // default slider setting
